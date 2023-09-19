@@ -102,6 +102,7 @@ input[name="r"] {
   margin-left: -75%;
 }
 
+
 #r1:checked ~ .description-container .description .t1 {
   margin-left: 0;
 }
@@ -168,6 +169,21 @@ background-color: brown;
 .bar4:active .bar-circle4 {
   background-color: rgba(165, 42, 42, 0.5);
 }
+
+#r1:checked:hover ~ .navigations .bar-circle1 {
+  background-color: rgb(255, 255, 255);
+}
+
+#r2:checked:hover ~ .navigations .bar-circle2 {
+  background-color: rgb(255, 255, 255);;
+}
+#r3:checked:hover ~ .navigations .bar-circle3 {
+  background-color: rgb(255, 255, 255);;
+}
+#r4:checked:hover ~ .navigations .bar-circle4 {
+  background-color: rgb(255, 255, 255);;
+}
+
 
 @media screen and (max-width: 600px) {
   .slider {
